@@ -30,3 +30,11 @@ L'objectif de ce premier TP est de créer une facture.
 6. Effectuer un *git add .* pour enregister les modifications
 7. Effectuer un *git commit - m "<votre_message>"* pour créer une photo de votre projet
 8. Pousser votre code sur votre repository github. 
+9. 
+
+## Description du programme
+1. Lancer l'application
+2. le programme de à l'utilisateur d'entrer un produit en demandant le nom, prix et qte
+3. le programme demande à l'utilisateur s'il veut ajouter un nouveau prroduit
+4. s'il choisit "yes" alors il entre un nouveau produit ainsi de suite
+5. une fois terminé le programme calcule le cout total de la facture puis affiche le résultat

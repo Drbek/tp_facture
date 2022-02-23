@@ -1,6 +1,6 @@
 #L'objectif de ce mini TP consite en la génération d'une facture
 import copy
-modeleProduit={"nom":"","prix":0.0,"quantite":0}
+modeleProduit={"nom":"","prix":0.0,"quantite":0} #definition du model de produit
 #Définition de la fonction pour verifier si une chaine de caractère peut etre convertit en float
 def is_float(s):
     result = False
@@ -28,7 +28,7 @@ while (stop!=True) :
     listeProduit.append(produit)
     confirm=""
     while confirm!="yes" and confirm!="no" :
-        confirm=input("Voulez-vous ajouter un autre produit (yes/no) ? ")
+        confirm=input("Voulez-vous ajouter un nouveau produit (yes/no) ? ")
         if confirm=="yes" :
             pass
         elif confirm=="no" :
